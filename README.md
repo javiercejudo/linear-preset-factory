@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/javiercejudo/linear-preset-factory/badge.svg?branch=master)](https://coveralls.io/r/javiercejudo/linear-preset-factory?branch=master)
 [![Code Climate](https://codeclimate.com/github/javiercejudo/linear-preset-factory/badges/gpa.svg)](https://codeclimate.com/github/javiercejudo/linear-preset-factory)
 
-Linear presets for temperature units
+Generate linear presets from unit conversion data
 
 ## Install
 
