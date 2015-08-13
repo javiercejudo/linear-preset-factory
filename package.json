@@ -1,6 +1,6 @@
 {
   "name": "linear-preset-factory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate linear presets from unit conversion data",
   "main": "src/linear-preset-factory.js",
   "scripts": {
