@@ -2,12 +2,12 @@
 
 'use strict';
 
-var forOwn = require('for-own');
-
 module.exports = function presetFactory(data) {
   var presets = {};
 
-  forOwn(data.conversions, function addPreset(preset, unit) {
+  Object.keys(data.conversions).forEach(function addPreset(unit) {
+    var preset = data.conversions[unit];
+
     presets[data.base + '_' + unit] = preset;
   });
 
